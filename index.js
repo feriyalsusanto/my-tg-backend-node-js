@@ -181,6 +181,6 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
   console.log(
-    "Set your webhook URL in Telegram: https://api.telegram.org/bot7943892184:AAElSqIpcDCZ3pIeTSq-3ggkIKkUWr5uLlo/setWebhook?url=https://mpkl4az6aisj.share.zrok.io/webhook"
+    "Set your webhook URL in Telegram: https://api.telegram.org/bot7943892184:AAElSqIpcDCZ3pIeTSq-3ggkIKkUWr5uLlo/setWebhook?url=<server url>/webhook"
   );
 });
