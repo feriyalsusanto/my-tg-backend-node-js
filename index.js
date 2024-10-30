@@ -184,3 +184,5 @@ app.listen(PORT, () => {
     "Set your webhook URL in Telegram: https://api.telegram.org/bot7943892184:AAElSqIpcDCZ3pIeTSq-3ggkIKkUWr5uLlo/setWebhook?url=<server url>/webhook"
   );
 });
+
+module.exports = app;
